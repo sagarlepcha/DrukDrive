@@ -23,7 +23,7 @@ This repository contains the following files and directories:
 | `.gitignore`                       | Git ignore configuration. |
 | `README.md`                        | This file. |
 
-
+---
 ## 🚀 Installation Guide
 
 ### Prerequisites
@@ -48,14 +48,20 @@ Wait for Gradle sync to complete (≈5 mins)
 bash: ./gradlew assembleDebug
 Output: app/build/outputs/apk/debug/app-debug.apk
 
-🛠 Technical Specifications
+### Technical Specifications
 Component	Details
+
 Detection Model	YOLOv5s (TensorFlow Lite optimized)
+
 Inference Speed	23ms ±4ms (Pixel 6a)
+
 Accuracy	94.2% mAP@0.5 (Bhutan Sign Dataset)
+
 Target FPS	30 FPS (720p input)
+
 App Size	82MB (ARM64 optimized)
-📈 Future Roadmap
+
+### Future Roadmap
 Dashcam integration for driver perspective analysis
 
 Bhutanese voice assistant integration (Dzongkha)
@@ -64,22 +70,27 @@ Crowdsourced sign database maintenance
 
 ADAS features (lane detection, collision warning)
 
-🤝 Contribution Guidelines
-Fork the repository
+---
+## Contribution Guidelines
 
-Create feature branch (git checkout -b feature/amazing-feature)
+-Fork the repository
 
-Commit changes (git commit -m 'Add amazing feature')
+-Create feature branch (git checkout -b feature/amazing-feature)
 
-Push to branch (git push origin feature/amazing-feature)
+-Commit changes (git commit -m 'Add amazing feature')
 
-Open Pull Request
+-Push to branch (git push origin feature/amazing-feature)
 
-📜 License
+-Open Pull Request
+
+### License
 This project is proprietary software. All rights reserved. For licensing inquiries, please contact sagarlepcharobot@email.com.
 
-📬 Contact
-Project Lead: Sagar Lepcha
-Research Group: PRJ303 Group 9
-Affiliation: Royal Institute of Technology, Bhutan
-Email: sagarlepcharobot@email.com
+### Contact
+-Project Lead: Sagar Lepcha
+
+-Research Group: PRJ303 Group 9
+
+-Affiliation: Royal Institute of Technology, Bhutan
+
+-Email: sagarlepcharobot@email.com
